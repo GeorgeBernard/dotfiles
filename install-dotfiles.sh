@@ -1,6 +1,6 @@
-#!/bin/bash -ex
+#!/bin/bash
 DOTFILES_DIR='~/dotfiles'
 
-ln -sfv $(realpath .bashrc) ~
+ln -sfv $(realpath bash/.bashrc) ~
 ln -sfv $(realpath vim/.vimrc) ~
 ln -sfv $(realpath git/.gitconfig) ~

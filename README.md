@@ -2,5 +2,6 @@
 Preferred Linux Configuration
 
 ## Scripts
-- **install.sh**: Entry point to full install
+- **full-install.sh**: Entry point to full install
 - **install-packages.sh**
+- **install-dotfiles.sh**
