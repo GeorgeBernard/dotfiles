@@ -14,8 +14,8 @@ set nomodeline                  " ...for security reasons
 set wildmenu
 set wildmode=longest:full,full
 
-set number                      " show line numbers
-set mouse+=a                     " allow copying without line nums
+set number numberwidth=4        " show line numbers
+set mouse+=a                    " allow copying without line nums
 
 set nowrap                      " don't wrap lines
 set textwidth=79

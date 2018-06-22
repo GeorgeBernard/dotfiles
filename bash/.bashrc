@@ -63,6 +63,13 @@ else
 fi
 unset color_prompt force_color_prompt
 
+# Fun ANSI Colors | ghb 2018-06-22
+FWHT='\[\033[00m\]'
+FBLU='\[\033[01;34m\]'
+FGRN='\[\033[01;32m\]'
+PS1="$FGRN[\u@\h $FBLU\w$FGRN]$FWHT\$ "
+unset color_prompt force_color_prompt
+
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
