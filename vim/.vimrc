@@ -33,3 +33,22 @@ highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
 set belloff=all                 " Turn off bell
+
+set foldmethod=indent           " Set code folding
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+
+" Disable Arrow keys in Escape mode
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Disable Arrow keys in Insert mode
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+inoremap jj <ESC>
